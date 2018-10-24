@@ -1,0 +1,92 @@
+\documentclass[10pt]{article}
+
+%% Language and font encodings
+\usepackage[portuguese]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{indentfirst}
+\usepackage{graphicx}
+
+%% Sets page size and margins
+\usepackage[a4paper,top=3cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+%% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+
+\title{IF677 - Infra-Estrutura de Software}
+\author{Ramom José Correia Santos}
+\begin{document}
+\maketitle
+
+\section{Introdução}
+	A disciplina de Infra-Estrutura de Software fornece aos alunos a capacidade de entenderem o funcionamento dos sistemas de software e a interação desses com o sistema de hardware. É nela que estuda-se o trabalho do sistema operacional, seja na gerência de processos, gerência de memória, sistema de dados. É apresentado o funcionamento de uma memória virtual, o que é uma thread, como uma série de programas é escalonada para que o usuário tenha a impressão que os processos estão rodando simultaneamente. Está relacionada à área de Desenvolvimento e Infraestrutura sendo fortemente relacionada às sub-áreas, Infra-Estrutura de Hardware e Infra-Estrutura de Comunicação, compondo uma tríade.
+A disciplina está divida em 2 módulos:
+\\ \\
+Módulo 1: Sistemas Operacionais (30h) \\ \\
+$\bullet$ Processos \\
+$\bullet$ Escalonamento \\
+$\bullet$ Memória Virtual \\
+$\bullet$ Dispositivos de Entrada/Saída \\ \\
+Módulo 2: Sistemas Distribuídos (30h) \\ \\
+$\bullet$ Concorrência \\
+$\bullet$ Sistemas distribuídos \\
+$\bullet$ Middleware \\ 
+
+De maneira geral, o objetivo é expor os conceitos e sistemas de software básicos de um computador, que compreende a introdução aos sistemas concorrentes e aos sistemas operacionais, sejam eles mono-computador ou distribuídos. 
+
+
+
+\section{Relevância}
+\indent A presença dessa disciplina no curso é imprescíndivel devido à necessidade do entendimento de mecanismo de abstração para a plataforma de hardware subjacente e de gerenciador de recursos diversos. Por isso, estuda-se desde a parte de sistemas físicos(Sistemas Digitais e Infraestrutura de Hardware) à funcionalidade do software "base" que é o Sistema Operacional. \cite{tanenbaum2009sistemas} \cite{tanenbaum1995sistemas} \\
+
+\noindent $\bullet$ Pontos Positivos \\
+
+O estudo da memória, da gerência de processos, ajuda muito na hora de fazer um código econômico que não desgasta muito o sistema. Assim, otimizando processos. \\
+
+O conteúdo. Pois lida-se com um sistema operacional o tempo todo. Entender seu funcionamento como um todo é bastante importante em seu manuseamento e para a elaboração de novas funcionalidades. \\ \\ \\ \\ \\
+
+
+\noindent $\bullet$ Pontos Negativos \\
+
+Pelo fato dos sistemas operacionais serem, na maioria das vezes, privados, grande parte das coisas que são implementadas hoje são segredos industriais. Por isso, os alunos têm apenas uma noção por alto de como as funcionalidades são implementadas. \\
+
+A parte prática é muito pequena, são poucos exercícios que são feitos/executados no computador. \\
+
+\section{Relação com outras disciplinas}
+
+
+\begin{table}[h]
+\centering
+\caption{Relação entre Infra-Estrutura de Software e disciplinas correlatas}
+\label{my-label}
+\begin{tabular}{|l|l|}
+\hline
+IF674 - Infra-Estrutura de Hardware & \begin{tabular}[c]{@{}l@{}}Em Infra de Software, trata-se do sistema operacional,\\ enquanto em Infra de Hardware é aprofundado na co-\\ municação do hardware e o sistema operacional, com-\\ preendendo alguns circuitos e entendendo o funciona-\\ mento da CPU. \cite{hennessy2014organizaccao} \end{tabular} \\ \hline
+IF688 - Compiladores                & \begin{tabular}
+[c]{@{}l@{}}Um compilador é o que transforma um código escrito \\ num programa que vai ser executado pelo sistema ope-\\ racional. É responsável pelo trabalho de analisar um \\ código e transformá-lo nume executável. \cite{stallings2010arquitetura} \end{tabular}                             \\ \hline
+\end{tabular}
+\end{table}
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+\bibliographystyle{unsrt}
+\bibliography{rjcs}
+
+
+
+\end{document}
